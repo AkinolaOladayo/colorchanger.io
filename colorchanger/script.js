@@ -4,7 +4,7 @@
     if (x === 0 || x < 225){
         displayError="You're doing well";
         document.getElementById("displayError").innerHTML = displayError;
-        document.getElementById("displayError").style.color = "green";
+        document.getElementById("displayError").style.color = "white";
         document.getElementById("circle").style.backgroundColor = getRandomRgb();
         }
 
