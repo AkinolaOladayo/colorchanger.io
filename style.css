@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: url("img/tobias-roder-x60YFtdOsGU-unsplash.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+.container{
+    height: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    /* margin: auto;    */
+    display: block;   
+}
+.row{
+    margin-left: 60px;
+}
+.intro{
+    color: #e2fa07;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    
+    
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background:#ffffff;
+    border: black;
+    margin: 20px 20px;
+    text-align: center;
+}
+#input{
+    height: 50px;
+    margin: 20px 0px;
+    border: 0px 0px 1px 1px;
+    display: block;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 10px;
+ }
+
+ #displayError{
+     color: red;
+     margin: 10px 10px;
+ }
+
+
+.btn{
+    padding: 10px 10px;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
