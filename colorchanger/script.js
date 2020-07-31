@@ -11,7 +11,7 @@
     if ( x > 225){
     displayError = "Egungun be kiaful!!, Please enter a valid number";
     document.getElementById("displayError").innerHTML = displayError;
-    document.getElementById("displayError").style.color = "red";
+    document.getElementById("displayError").style.color = "yellow";
     }
 
     if (x === ""){
