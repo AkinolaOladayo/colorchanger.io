@@ -1,7 +1,7 @@
   function myFunction(){
     var x = document.getElementById("input").value;
 
-    if (x === 0 || x < 225){
+    if (x === 0 || x <= 225){
         displayError="You're doing well";
         document.getElementById("displayError").innerHTML = displayError;
         document.getElementById("displayError").style.color = "white";
@@ -14,7 +14,7 @@
     document.getElementById("displayError").style.color = "yellow";
     }
 
-    if (x === ""){
+    if (x === "" || x < 0 ){
       displayError = "#Don'tleaveme...Please enter a valid number";
       document.getElementById("displayError").innerHTML = displayError;
       document.getElementById("displayError").style.color = "yellow";
